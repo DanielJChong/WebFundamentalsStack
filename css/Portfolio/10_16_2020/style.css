@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: white;
+    background-color: #878593;
+    padding: 10px;
+}
+
+.container {
+    background-color: #F8F8F8;
+    width: 970px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+    header h2 {
+        margin-right: 20px;
+    }
+
+.main {
+    background-color: #6F5964;
+    padding: 15px;
+    
+}
+    .intro {
+        display: flex;
+        margin-bottom: 20px;
+    }
+        .intro img {
+            width: 40%;
+            border: 5px solid #c0c0c0;
+            margin-right: 20px;
+        }
+        .right-box {
+            background-color: white;
+        }
+            .right-paragraph {
+                padding: 10px;
+                font-size: 12pt;
+            }
+                .right-paragraph p {
+                    margin-bottom: 10px;
+                }
+    .body {
+            display: flex;
+            justify-content: space-between;
+    }
+        .project {
+            background-color: white;
+            width: 32%;
+            height: 570px;
+        }
+            .project img {
+                width: 100%;
+            }
+            .project p {
+                height: 160px;
+            }
+            
+            .project h4 {
+                background-color: #878593;
+                color: white;
+                font-size: 14pt;
+                background-size: auto;
+                padding: 5px;
+            }
+            .technologies {
+                display: flex;
+                flex-wrap: wrap;
+            }
+                .technologies img {
+                    width: 40px;
+                    margin: 10px 10px 5px 10px;
+                }
+            .project button {
+                display: block;
+                background-color: green;
+                color: white;
+                margin: 10px auto;
+                border-radius: 5px;
+                font-size: 12pt;
+                padding: 5px;
+            }
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+    #contact-info {
+        margin-bottom: 20px;
+    }
+    .profiles img {
+        width: 15px;
+    }

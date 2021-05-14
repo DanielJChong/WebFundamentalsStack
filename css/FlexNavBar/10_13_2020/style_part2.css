@@ -1,0 +1,37 @@
+#bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 970px;
+    background-color: hsl(216, 69%, 63%);
+    color: white;
+    padding: 10px;
+}
+
+img{
+    width: 10%;
+}
+
+h1{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-right: 50px;
+}
+
+#nav-menu li{
+    display: inline;
+}
+
+a{
+    color:white;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+}
